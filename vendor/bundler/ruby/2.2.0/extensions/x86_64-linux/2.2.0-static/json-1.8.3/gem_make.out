@@ -1,0 +1,9 @@
+/home/sanshiro/.rbenv/versions/2.2.3/bin/ruby -r ./siteconf20160202-7715-zuy2qo.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+make: `all' に対して行うべき事はありません.
+
+make "DESTDIR=" install

@@ -1,0 +1,15 @@
+/home/sanshiro/.rbenv/versions/2.2.3/bin/ruby -r ./siteconf20160202-7715-1hphj3t.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling context.c
+compiling locker.c
+compiling threads.c
+compiling breakpoint.c
+compiling byebug.c
+linking shared-object byebug/byebug.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20160202-7715-1n872ka/byebug
