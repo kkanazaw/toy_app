@@ -16,4 +16,4 @@
 !/log/.keep
 /tmp
 
-/vender/bundler/*
+/vendor/bundler/*
